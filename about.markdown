@@ -1,18 +1,28 @@
 ---
-layout: page
-title: About
+layout: single
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Madeline 👋
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm an App Developer for the Apple Ecosystem (iOS, iPadOS, MacOS).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Relevant MacOS Skills:
+* Swift
+* SwiftUI
 
+Relevant iOS/iPadOS skills:
+* Swift
+* SwiftUI
+* Storyboarding
+* WatchOS (Apps, Complications)
+* Widgetkit
 
-[jekyll-organization]: https://github.com/jekyll
+Other Skills:
+* Bonjour / Zero-conf
+* Native App Websocket Connections
+* Dabbling in Driverkit
+* REST APIs
+
+If you'd like to hire me, feel free to {% include mailto-link-tag.html label="send me an email"%}.
