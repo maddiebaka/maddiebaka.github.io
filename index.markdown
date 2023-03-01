@@ -9,18 +9,18 @@ header:
 feature_row:
   - image_path: /assets/images/gallery4.png
     title: "Lessons"
-    excerpt: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    excerpt: "Categorized in the same method as the chapters in Sonja's book. When you're done with a chapter, train your memory until the vocabulary is second nature."
   - image_path: /assets/images/gallery6.png
     title: "Flashcards"
-    excerpt: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    excerpt: "Each lesson presents you with a stack of flashcards. Try to guess the definition, flip the card, and mark your guess right or wrong with a flick of your finger."
   - image_path: /assets/images/gallery1.png
     title: "Dictionary"
-    excerpt: "Dolor sed viverra ipsum nunc. Est placerat in egestas erat imperdiet sed. Nulla facilisi etiam dignissim diam quis enim."
+    excerpt: "A built-in dictionary covers every word in the base language. Look up a word, an entire phrase, or find a word you can't quite remember."
 ---
 
 # Learn the Language of Good: A Toki Pona Study Tool
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The language *toki pona*, written by Sonja Lang, is a minimalist constructed language with the intention of fostering positive thought. **Toki Trainer** is an open source companion for the foundational book, [Toki Pona: The Language of Good](https://www.goodreads.com/book/show/22460189-toki-pona). Featuring flashcards, dictionary, and phrase lookup tool, it will make memorization as easy as possible.
 {: style="display: block; text-align: justify;" }
 
 
@@ -31,3 +31,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {: .align-right }
 
 {% include feature_row %}
+
+More on [toki pona](https://en.wikipedia.org/wiki/Toki_Pona) at Wikipedia
+{: style="text-align: center;" }

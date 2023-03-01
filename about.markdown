@@ -6,9 +6,9 @@ permalink: /about/
 
 Hi, I'm Madeline 👋
 
-I'm an App Developer for the Apple Ecosystem (iOS, iPadOS, MacOS).
+I'm an App Developer for the Apple Ecosystem (iOS, iPadOS, macOS).
 
-Relevant MacOS Skills:
+Relevant macOS Skills:
 * Swift
 * SwiftUI
 
