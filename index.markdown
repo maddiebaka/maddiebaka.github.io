@@ -20,7 +20,7 @@ feature_row:
 
 # Learn the Language of Good: A Toki Pona Study Tool
 
-The language *toki pona*, written by Sonja Lang, is a minimalist constructed language with the intention of fostering positive thought. **Toki Trainer** is an open source companion for the foundational book, [Toki Pona: The Language of Good](https://www.goodreads.com/book/show/22460189-toki-pona). Featuring flashcards, dictionary, and phrase lookup tool, it will make memorization as easy as possible.
+The language *toki pona*, written by Sonja Lang, is a minimalist constructed language with the intention of fostering positive thought. **Toki Trainer** is an open source companion for the foundational book, [Toki Pona: The Language of Good](https://www.goodreads.com/book/show/22460189-toki-pona). Featuring flashcards, dictionary, and a phrase lookup tool, it makes memorization as easy as possible.
 {: style="display: block; text-align: justify;" }
 
 
