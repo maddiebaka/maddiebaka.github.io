@@ -20,7 +20,7 @@ I'm an App Developer for the Apple Ecosystem (iOS, iPadOS, macOS).
 * WidgetKit
 
 👩‍💻 Other Skills
-* Bonjour / Zero-conf
+* Bonjour / Zeroconf
 * Native WebSockets
 * DriverKit
 * REST

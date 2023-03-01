@@ -34,3 +34,6 @@ The language *toki pona*, written by Sonja Lang, is a minimalist constructed lan
 
 More on [toki pona](https://en.wikipedia.org/wiki/Toki_Pona) at Wikipedia
 {: style="text-align: center;" }
+
+View the [code](https://git.corrupt.link/maddiefuzz/TokiTrainer) on Gitea
+{: style="text-align: center;" }
