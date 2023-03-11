@@ -23,7 +23,7 @@ email: maddiedev@riseup.net
 description: >- # this means to ignore newlines until "baseurl:"
   Technical writing and musing from the void.  
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://maddie.info/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: maddiebaka
 repository: maddiebaka/maddiebaka.github.io
