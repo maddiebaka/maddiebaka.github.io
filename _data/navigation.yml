@@ -1,3 +1,7 @@
 main:
+  - title: "Toki Trainer"
+    url: /
+  - title: "Blog"
+    url: /posts/
   - title: "About Me"
     url: /about/
