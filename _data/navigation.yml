@@ -1,4 +1,6 @@
 main:
+  - title: "6502ASM"
+    url: /byit/
   - title: "Toki Trainer"
     url: /
   - title: "Blog"

@@ -2,7 +2,7 @@
 layout: single
 title:  "NSWorkspace NotificationCenter observers in pure Swift"
 date:   2023-03-10 17:49:57 -0500
-categories: ios swift
+categories: AppleDev
 ---
 
 For a recent MacOS project I had to hook into the system screen wake and sleep notifications. This is
