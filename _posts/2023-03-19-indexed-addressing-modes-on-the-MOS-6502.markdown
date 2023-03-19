@@ -4,7 +4,7 @@ title: "Indexed addressing modes on the MOS 6502"
 categories: "6502"
 ---
 
-There are four indexed addressing modes on the MOS 6502. I've found the last one, `indirect indexed`, the most useful in my HGR experiments, but wanted to write about them all a bit. There are interactive examples at the end of this post (requires Javascript).
+There are four indexed addressing modes on the MOS 6502. I've found the last one, `indirect indexed`, the most useful in my high-res graphics mode experiments on the Apple II+, but wanted to write about them all a bit. There are interactive examples at the end of this post (requires Javascript).
 
 # Absolute Indexed
 
@@ -34,7 +34,7 @@ Note that you should normally use the X register for this addressing mode. You c
 LDA ($00, X)
 {% endhighlight %}
 
-The syntax for using the indexed indirect instruction is shown above. `$00` is an absolute address referring to memory address `0020`. X refers to the contents of the X register. Note that you cannot substitute X for Y while using indexed indirect. You likewise cannot use the X register with indirect indexed. Both this and the next addressing mode must be used with the accompanying register shown in these examples.
+The syntax for using the indexed indirect instruction is shown above. `$00` is an absolute address referring to memory address `0000`. X refers to the contents of the X register. Note that you cannot substitute X for Y while using indexed indirect. You likewise cannot use the X register with indirect indexed. Both this and the next addressing mode must be used with the accompanying register shown in these examples.
 
 The contents of the X register will be added to the absolute address. Assuming X contains `$02`, the resulting address is `$00 + $02 = $02`. This is the memory location from which to fetch an address and retrieve the value stored in this address.
 
@@ -101,7 +101,7 @@ The below 6502 assembler/emulator has been adapted from the source of the [6502j
 
   <div class="monitorControls">
     <label class="inline-element" for="monitoring">Monitor</label>
-    <input class="inline-element" type="checkbox" class="monitoring" name="monitoring" />
+    <input class="inline-element" id="monitorCheckbox" type="checkbox" class="monitoring" name="monitoring" />
 
     <label class="inline-element" for="start">Start: $</label>
     <input class="inline-element" type="text" value="0" class="start" name="start" />
@@ -118,7 +118,8 @@ The below 6502 assembler/emulator has been adapted from the source of the [6502j
 <script src="/assets/6502js/assembler.js"></script>
 <script>
   window.onload = function() {
-    indexedIndirect();
+    absoluteIndexed();
+    document.getElementById("monitorCheckbox").click()
   }
 
   function absoluteIndexed() {
