@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "Indexed addressing modes on the MOS 6502"
-categories: "6502"
 ---
 
 There are four indexed addressing modes on the MOS 6502. I've found the last one, `indirect indexed`, the most useful in my high-res graphics mode experiments on the Apple II+, but wanted to write about them all a bit. There are interactive examples at the end of this post (requires Javascript).
