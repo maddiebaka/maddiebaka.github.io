@@ -105,8 +105,13 @@ feature of `git`, all on its own, no big web frontend needed. 😁
 # HTTPS
 
 If you want to serve a read-only copy, just stick your repo in a folder that's served by nginx or
-your web server of choice, and you're good to go. This is just an endpoint, like using SSH
+your web server of choice. This is just an endpoint, like using SSH
 transport above. You can `git clone` or `git pull` from the URL, but there is no web frontend.
+
+You will need to regularly run
+[git update-server-info](https://git-scm.com/docs/git-update-server-info)
+to (re)generate auxiliary information files so that `git` can properly discover what is hosted
+on your HTTPS endpoint.
 
 If you *do* want a web frontend, git comes with 
 [GitWeb](https://git-scm.com/book/en/v2/Git-on-the-Server-GitWeb).
