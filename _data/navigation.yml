@@ -3,6 +3,8 @@ main:
     url: /byit/
   - title: "Toki Trainer"
     url: /
+  - title: "Soyuz"
+    url: /soyuz.html
   - title: "Blog"
     url: /posts/
   - title: "About Me"
