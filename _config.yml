@@ -60,3 +60,23 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Build reproducibility (see .github/workflows/pages.yml)
+#
+# Pin the timezone so local builds and CI agree on post dates. GitHub's
+# classic Pages builder ran in UTC, so UTC keeps every existing post URL
+# exactly where it is.
+timezone: "UTC"
+
+sass:
+  # GitHub's Pages builder minified this for us; Jekyll 4 defaults to
+  # :expanded, which grew main.css from 70K to 107K.
+  style: compressed
+  # Minimal Mistakes vendors an old Susy that trips ~230 Dart Sass
+  # division deprecations per build. Not ours to fix, so don't print them.
+  quiet_deps: true
+  # The theme's own main.scss still uses @import, removed in Dart Sass 3.
+  silence_deprecations: ["import"]
+
+exclude:
+  - new_post.rb
