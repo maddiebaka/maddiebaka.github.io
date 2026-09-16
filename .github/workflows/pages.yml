@@ -21,13 +21,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: ruby/setup-ruby@v1
         with:
-          # Matches the .ruby-version used locally; bundler-cache handles
-          # both `bundle install` and caching the result between runs.
-          ruby-version-file: .ruby-version
+          # The default reads .ruby-version, keeping CI on the same Ruby
+          # as local. bundler-cache runs bundle install and caches the gems.
+          ruby-version: default
           bundler-cache: true
 
       - uses: actions/configure-pages@v5
