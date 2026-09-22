@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Madeline is a baka
+layout: single
+title: Elizabeth is a baka
 permalink: /baka/
 ---
 
