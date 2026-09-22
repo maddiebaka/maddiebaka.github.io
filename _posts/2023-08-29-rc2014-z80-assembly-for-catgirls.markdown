@@ -9,7 +9,7 @@ title: "RC2014: Z80 Assembly for Catgirls 😻"
 > Superboard II and Apple I in here. It nominally has 8K ROM, 32K RAM, runs at 7.3728MHz and
 > communicates over serial at 115,200 baud." - [RC2014 Homepage](https://rc2014.co.uk)
 
-![alt test]({{ site.url }}{{ site.baseurl }}/assets/images/posts/rc2014/pride2.png)
+![alt test]({{ site.url }}{{ site.baseurl }}/assets/images/posts/rc2014/pride2.jpg)
 
 
 I soldered this kit together recently, which was an undertaking that I underestimated. The Pro kit
@@ -39,8 +39,7 @@ executable, invoke `LOAD` on your `.HEX` file and it will generate a `.COM` file
 
 # There Are Eight Lights!
 
-![Picard saying 'There are four lights!']({{ site.url }}{{ site.baseurl }}/assets/images/posts/rc2014/four_lights.gif)
-{: style="display: block; text-align: center;" }
+<video src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/rc2014/four_lights.mp4" width="244" height="192" autoplay loop muted playsinline aria-label="Picard saying 'There are four lights!'" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></video>
 
 The [Digital I/O module](https://rc2014.co.uk/modules/digital-io/) makes for a great first device to fiddle with. It is addressed as device 0,
 accepts an 8-bit value that it displays in two's complement with 8 LEDs, and has eight momentary 
@@ -143,8 +142,7 @@ Altogether:
 
 Now you can see the binary representation of whichever key you press!
 
-![Demonstration]({{ site.url }}{{ site.baseurl }}/assets/images/posts/rc2014/signal_lamp.gif)
-{: style="display: block; text-align: center;" }
+<video src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/rc2014/signal_lamp.mp4" width="500" height="282" autoplay loop muted playsinline aria-label="Demonstration" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></video>
 
 But wait, yours doesn't quite do that..?
 

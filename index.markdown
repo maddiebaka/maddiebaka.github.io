@@ -4,7 +4,7 @@ title: Indie Apps for Everyone
 #layout: gallery
 theme: air
 header:
-  overlay_image: /assets/images/header.png
+  overlay_image: /assets/images/header.jpg
   overlay_filter: 0.4
 feature_row:
   - image_path: /assets/images/gallery4.png
